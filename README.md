@@ -2,7 +2,8 @@
 
 Submitted by: David Allen
 
-SwiftPrework is an app that... [TODO] 
+SwiftPrework is an app where you can party by changing the background color.
+The text automatically updates from white to black depending on contrast for accessibility.
 
 Time spent: **3** hours spent in total
 
