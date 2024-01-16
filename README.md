@@ -2,6 +2,14 @@
 
 Submitted by: David Allen
 
+<div>
+    <a href="https://www.loom.com/share/87e2bc564a314b578f3163ccd3bd32b5">
+    </a>
+    <a href="https://www.loom.com/share/87e2bc564a314b578f3163ccd3bd32b5">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/87e2bc564a314b578f3163ccd3bd32b5-with-play.gif">
+    </a>
+  </div>
+
 SwiftPrework is an app where you can party by changing the background color.
 The text automatically updates from white to black depending on contrast for accessibility.
 
@@ -40,11 +48,11 @@ As a college student, I’ve noticed many students scramble when moving in and o
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I encountered some challenges in changing the text color; while background color is stored in the view, I wasn't sure how to update label colors. But I eventually figured out you can link the labels from the Storyboard the same way as the buttons to be able to access their properties. I was a little uncomfortable with the amount of dragging and dropping I needed to do, only because it's unclear where an element on the screen is being declared. Furthermore, the button being pressed clearly changes the state of the app, but there is no explicit reference to the app's State anywhere, which confused me initially.
 
 ## License
 
-    Copyright [David Allen] [name of copyright owner]
+    Copyright [David Allen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
